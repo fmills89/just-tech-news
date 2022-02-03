@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fmills89/just-tech-news#readme",
   "devDependencies": {
+    "jest": "^27.4.7",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
