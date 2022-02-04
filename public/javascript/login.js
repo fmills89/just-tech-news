@@ -44,7 +44,8 @@ async function loginFormHandler(e) {
             headers: { 'Content-Type': 'application/json' }
         });
         if (response.ok) {
-            document.location.replace('/');
+            //dashboard template is in place
+            document.location.replace('/dashboard');
         } else {
             alert(response.statusText);
         }
